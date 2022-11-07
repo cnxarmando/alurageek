@@ -1,0 +1,45 @@
+.container__banner {
+  background: url(../../img/mario-banner.jpg) no-repeat center center;
+  background-size: cover;
+  height: 35rem;
+  width: 100%;
+  position: relative;
+  margin-bottom: 4rem;
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.banner__title {
+  position: absolute;
+  width: inherit;
+  top: 40%;
+  color: #fff;
+  font-size: 5.2rem;
+}
+
+.banner__description {
+  position: absolute;
+  width: inherit;
+  top: 60%;
+  color: #fff;
+  font-size: 2.2rem;
+}
+
+.banner__button {  
+  width: 100%;
+}
+
+.banner__button--button {
+  position: absolute;
+  height: 5rem;
+  width: 13rem;
+  top: 70%;
+  color: #fff;
+  font-size: 1.6rem;
+  background: #2A7AE4;
+}

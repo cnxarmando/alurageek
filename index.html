@@ -4,205 +4,319 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https: //fonts.googleapis.com/css2? família= Raleway:wght@400;500;700 & display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/header/header.css" />
+    <link rel="stylesheet" href="./assets/css/banner/banner.css" />
+    <link rel="stylesheet" href="./assets/css/products/products.css" />
+    <link rel="stylesheet" href="./assets/css/contact/contact.css" />
+    <link rel="stylesheet" href="./assets/css/footer/footer.css" />
     <title>AluraGeek</title>
   </head>
   <body>
-    <header class="content header">
-      <div class="header__logo">
-        <img class="header__image" src="./assets/img/control.svg" alt="" />
-        <h1 class="header__title">AluraGeek</h1>
+    <header class="header">
+      <div class="content__header">
+        <div class="header__logo">
+          <img
+            class="header__image"
+            src="./assets/img/header/control.svg"
+            alt="Controle video game"
+          />
+          <h1 class="header__title">AluraGeek</h1>
+        </div>
+        <div class="header__search">
+          <input
+            type="search"
+            name=""
+            id=""
+            placeholder="O que deseja encontrar?"
+          />
+          <button class="header__search--button">
+            <img src="./assets/img/search.svg" alt="" />
+          </button>
+        </div>
+        <button class="header__button">Login</button>
       </div>
-      <div class="header__search">
-        <input type="search" name="" id="" />
-        <button class="header__search--button"><img src="./assets/img/search.svg" alt="" /></button>
-      </div>
-      <button>Login</button>
     </header>
-    <hr />
-    <section class="banner">
-      <img class="banner__image" src="./assets/img/mario-banner.jpg" alt="" />
-      <h2 class="banner__title">Dezembro Promocional</h2>
-      <p class="banner__description">
-        Produtos selecionados com 33% de desconto
-      </p>
-      <button class="banner__button">Ver consoles</button>
+    
+    <section class="container__banner">
+      <div class="banner">
+        <h2 class="banner__title">Dezembro Promocional</h2>
+        <p class="banner__description">
+          Produtos selecionados com 33% de desconto
+        </p>
+        <div class="banner__button">
+          <button class="banner__button--button">Ver consoles<button>
+        </div>
+      </div>
     </section>
-    <hr />
+    
     <main>
-      <section class="star-wars">
-        <h2 class="star-wars__title">Star Wars</h2>
-        <div class="star-wars__products">
-          <div class="star-wars__products--item">
-            <img class="star-wars__products--image" src="./assets/img/star-wars/unsplash_6FDXGY9J6y4.png" alt="" />
-            <h3 class="star-wars__products--title">Nome do produto</h3>
-            <p class="star-wars__products--description">Descrição do produto</p>
-            <p class="star-wars__products--price">R$ 999,99</p>
-            <button class="star-wars__products--button">Ver produto</button>
+      <section class="container star-wars">
+        <div class="container__title">
+          <h2 class="container__title--title">Star Wars</h2>
+          <button class="container__button">
+            Ver mais<img src="./assets/img/arrow.svg" alt="Seta" />
+          </button>
+        </div>
+
+        <div class="container__products">
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/star-wars/unsplash_6FDXGY9J6y4.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
-          <div class="star-wars__products--item">
-            <img class="star-wars__products--image" src="./assets/img/star-wars/unsplash_epRFE_hBNjo.png" alt="" />
-            <h3 class="star-wars__products--title">Nome do produto</h3>
-            <p class="star-wars__products--description">Descrição do produto</p>
-            <p class="star-wars__products--price">R$ 999,99</p>
-            <button class="star-wars__products--button">Ver produto</button>
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/star-wars/unsplash_epRFE_hBNjo.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
-          <div class="star-wars__products--item">
-            <img class="star-wars__products--image" src="./assets/img/star-wars/unsplash_KeGToDVN0l4.png" alt="" />
-            <h3 class="star-wars__products--title">Nome do produto</h3>
-            <p class="star-wars__products--description">Descrição do produto</p>
-            <p class="star-wars__products--price">R$ 999,99</p>
-            <button class="star-wars__products--button">Ver produto</button>
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/star-wars/unsplash_KeGToDVN0l4.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
-          <div class="star-wars__products--item">
-            <img class="star-wars__products--image" src="./assets/img/star-wars/unsplash_4OHkK555s1A.png" alt="" />
-            <h3 class="star-wars__products--title">Nome do produto</h3>
-            <p class="star-wars__products--description">Descrição do produto</p>
-            <p class="star-wars__products--price">R$ 999,99</p>
-            <button class="star-wars__products--button">Ver produto</button>
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/star-wars/unsplash_4OHkK555s1A.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
-          <div class="star-wars__products--item">
-            <img class="star-wars__products--image" src="./assets/img/star-wars/unsplash_R8L1l9RN198.png" alt="" />
-            <h3 class="star-wars__products--title">Nome do produto</h3>
-            <p class="star-wars__products--description">Descrição do produto</p>
-            <p class="star-wars__products--price">R$ 999,99</p>
-            <button class="star-wars__products--button">Ver produto</button>
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/star-wars/unsplash_R8L1l9RN198.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
-          <div class="star-wars__products--item">
-            <img class="star-wars__products--image" src="./assets/img/star-wars/unsplash_1VV1MRafd7A.png" alt="" />
-            <h3 class="star-wars__products--title">Nome do produto</h3>
-            <p class="star-wars__products--description">Descrição do produto</p>
-            <p class="star-wars__products--price">R$ 999,99</p>
-            <button class="star-wars__products--button">Ver produto</button>
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/star-wars/unsplash_1VV1MRafd7A.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
         </div>
       </section>
-      <hr />
-      <section class="console">
-        <h2 class="console__title">Consoles</h2>
-        <div class="console__products">
-          <div class="console__products--item">
-            <img class="console__products--image" src="./assets/img/consoles/unsplash_0POwK6iAiRQ.png" alt="" />
-            <h3 class="console__products--title">Nome do produto</h3>
-            <p class="console__products--description">Descrição do produto</p>
-            <p class="console__products--price">R$ 999,99</p>
-            <button class="console__products--button">Ver produto</button>
+      
+      <section class="container console">
+        <div class="container__title">
+          <h2 class="container__title--title">Consoles</h2>
+          <button class="container__button">
+            Ver mais<img src="./assets/img/arrow.svg" alt="Seta" />
+          </button>
+        </div>
+        <div class="container__products">
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/consoles/unsplash_0POwK6iAiRQ.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
-          <div class="console__products--item">
-            <img class="console__products--image" src="./assets/img/consoles/unsplash_caNzzoxls8Q.png" alt="" />
-            <h3 class="console__products--title">Nome do produto</h3>
-            <p class="console__products--description">Descrição do produto</p>
-            <p class="console__products--price">R$ 999,99</p>
-            <button class="console__products--button">Ver produto</button>
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/consoles/unsplash_caNzzoxls8Q.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
-          <div class="console__products--item">
-            <img class="console__products--image" src="./assets/img/consoles/unsplash_ZV7lnfyQLmA.png" alt="" />
-            <h3 class="console__products--title">Nome do produto</h3>
-            <p class="console__products--description">Descrição do produto</p>
-            <p class="console__products--price">R$ 999,99</p>
-            <button class="console__products--button">Ver produto</button>
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/consoles/unsplash_ZV7lnfyQLmA.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
-          <div class="console__products--item">
-            <img class="console__products--image" src="./assets/img/consoles/unsplash_wa5z9o9fgjw.png" alt="" />
-            <h3 class="console__products--title">Nome do produto</h3>
-            <p class="console__products--description">Descrição do produto</p>
-            <p class="console__products--price">R$ 999,99</p>
-            <button class="console__products--button">Ver produto</button>
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/consoles/unsplash_wa5z9o9fgjw.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
-          <div class="console__products--item">
-            <img class="console__products--image" src="./assets/img/consoles/unsplash_Zjn4dT993-g.png" alt="" />
-            <h3 class="console__products--title">Nome do produto</h3>
-            <p class="console__products--description">Descrição do produto</p>
-            <p class="console__products--price">R$ 999,99</p>
-            <button class="console__products--button">Ver produto</button>
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/consoles/unsplash_Zjn4dT993-g.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
-          <div class="console__products--item">
-            <img class="console__products--image" src="./assets/img/consoles/unsplash_k-xYhI3-gJM.png" alt="" />
-            <h3 class="console__products--title">Nome do produto</h3>
-            <p class="console__products--description">Descrição do produto</p>
-            <p class="console__products--price">R$ 999,99</p>
-            <button class="console__products--button">Ver produto</button>
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/consoles/unsplash_k-xYhI3-gJM.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
         </div>
       </section>
-      <hr />
-      <section class="several">
-        <h2 class="several__title">Diversos</h2>
-        <div class="several__products">
-          <div class="several__products--item">
-            <img class="several__products--image" src="./assets/img/several/unsplash_fMP-oCze3AY.png" alt="" />
-            <h3 class="several__products--title">Nome do produto</h3>
-            <p class="several__products--description">Descrição do produto</p>
-            <p class="several__products--price">R$ 999,99</p>
-            <button class="several__products--button">Ver produto</button>
+      
+      <section class="container several">
+        <div class="container__title">
+          <h2 class="container__title--title">Diversos</h2>
+          <button class="container__button">
+            Ver mais<img src="./assets/img/arrow.svg" alt="Seta" />
+          </button>
+        </div>
+        <div class="container__products">
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/several/unsplash_fMP-oCze3AY.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
-          <div class="several__products--item">
-            <img class="several__products--image" src="./assets/img/several/unsplash_bUgaIaZysH0.png" alt="" />
-            <h3 class="several__products--title">Nome do produto</h3>
-            <p class="several__products--description">Descrição do produto</p>
-            <p class="several__products--price">R$ 999,99</p>
-            <button class="several__products--button">Ver produto</button>
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/several/unsplash_bUgaIaZysH0.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
-          <div class="several__products--item">
-            <img class="several__products--image" src="./assets/img/several/unsplash_sYVY_ZKwaxU.png" alt="" />
-            <h3 class="several__products--title">Nome do produto</h3>
-            <p class="several__products--description">Descrição do produto</p>
-            <p class="several__products--price">R$ 999,99</p>
-            <button class="several__products--button">Ver produto</button>
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/several/unsplash_sYVY_ZKwaxU.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
-          <div class="several__products--item">
-            <img class="several__products--image" src="./assets/img/several/unsplash_jMT6BrgBuXU.png" alt="" />
-            <h3 class="several__products--title">Nome do produto</h3>
-            <p class="several__products--description">Descrição do produto</p>
-            <p class="several__products--price">R$ 999,99</p>
-            <button class="several__products--button">Ver produto</button>
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/several/unsplash_jMT6BrgBuXU.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
-          <div class="several__products--item">
-            <img class="several__products--image" src="./assets/img/several/unsplash_MxVkWPiJALs.png" alt="" />
-            <h3 class="several__products--title">Nome do produto</h3>
-            <p class="several__products--description">Descrição do produto</p>
-            <p class="several__products--price">R$ 999,99</p>
-            <button class="several__products--button">Ver produto</button>
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/several/unsplash_MxVkWPiJALs.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
-          <div class="several__products--item">
-            <img class="several__products--image" src="./assets/img/several/unsplash_r27umXAelDc.png" alt="" />
-            <h3 class="several__products--title">Nome do produto</h3>
-            <p class="several__products--description">Descrição do produto</p>
-            <p class="several__products--price">R$ 999,99</p>
-            <button class="several__products--button">Ver produto</button>
+          <div class="container__products--item">
+            <img
+              class="container__products--image"
+              src="./assets/img/several/unsplash_r27umXAelDc.png"
+              alt=""
+            />
+            <h3 class="container__products--title">Nome do produto</h3>
+            
+            <p class="container__products--price">R$ 999,99</p>
+            <button class="container__products--button">Ver produto</button>
           </div>
         </div>
       </section>
-      <hr />
+      
       <section class="contact">
-        <div class="contact__logo">
-          <img class="contact__logo--image" src="" alt="" />
-          <h1 class="contact__logo--title">AluraGeek</h1>
-        </div>
-        <div class="contact__menu">
-          <ul>
-            <li class="menu__item"><a href="#">Quem somos nós</a></li>
-            <li class="menu__item"><a href="#">Política de privacidade</a></li>
-            <li class="menu__item"><a href="#">Programa fidelidade</a></li>
-            <li class="menu__item"><a href="#">Nossas lojas</a></li>
-            <li class="menu__item"><a href="#">Quero ser franqueado</a></li>
-            <li class="menu__item"><a href="#">Anuncie aqui</a></li>
-          </ul>
-        </div>
-        <div class="contact__form">
-          <form action="" method="post">
-            <label for="nome">Nome</label>
-            <input type="text" name="nome" id="nome" />
-            <label for="mensagem">Mensagem</label>
-            <textarea
-              name="mensagem"
-              id="mensagem"
-              cols="30"
-              rows="10"
-            ></textarea>
-            <button type="submit">Enviar mensagem</button>
-          </form>
+        <div class="container__contact">
+
+          <div class="contact__logo">
+            <img class="contact__logo--image" src="./assets/img/header/control.svg" alt="" />
+            <h1 class="contact__logo--title">AluraGeek</h1>
+          </div>
+          <div class="contact__menu">
+            <ul>
+              <li class="menu__item"><a href="#">Quem somos nós</a></li>
+              <li class="menu__item"><a href="#">Política de privacidade</a></li>
+              <li class="menu__item"><a href="#">Programa fidelidade</a></li>
+              <li class="menu__item"><a href="#">Nossas lojas</a></li>
+              <li class="menu__item"><a href="#">Quero ser franqueado</a></li>
+              <li class="menu__item"><a href="#">Anuncie aqui</a></li>
+            </ul>
+          </div>
+          <div class="contact__form">
+            <h2 class="form__title">Fale conosco</h2>
+            <form action="" method="post">
+              <fieldset></fieldset>
+              <input class="form__input" type="text" name="nome" id="nome"
+              maxlength="30" placeholder="Nome"/>
+              <textarea class="form__textarea" name="mensagem" id="mensagem"
+              maxlength="300" placeholder="Mensagem"></textarea>
+              <button class="form__button" type="submit">Enviar mensagem</button>
+            </form>
+          </div>
         </div>
       </section>
       <footer class="footer">
