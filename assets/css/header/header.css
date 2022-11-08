@@ -14,6 +14,7 @@
 
 .header__logo {
   display: flex;
+  width: 27%;
   align-items: center;
 }
 
@@ -24,11 +25,16 @@
 
 .header__title {
   font-size: 2.4rem;
-  font-weight: 600;  
+  font-weight: 600;
+}
+
+.header__title span {
+  color: #2A7AE4;
 }
 
 .header__search {
   display: flex;
+  width: 33%;
   align-items: center;
 }
 
@@ -46,9 +52,8 @@
   font-weight: 400;
 }
 
-.header__search button {
-  width: 1.7rem;
-  height: 1.7rem;
+.header__search--image {
+  width: auto;
   background: #F5F5F5;
   margin-left: -3.5rem;
   display: flex;
@@ -57,16 +62,108 @@
 }
 
 .header__button {
-  font-size: 1.6rem;
+  width: 40%;
+  display: flex;
+  justify-content: right;
+}
+
+.header__button--button {
+
   font-weight: 400;
   color: #2A7AE4;
   padding: 1.6rem 5rem;
   border: .1rem solid #2A7AE4;
-  
-  
 }
 
 .header__button:hover {
   background: #2A7AE4;
   color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+
+  .content__header {
+    width: 90%;
+  }
+
+  .header__image {
+    width: 2.5rem;
+    height: 2rem;
+  }
+
+  .header__title {
+    font-size: 1.6rem;
+  }
+
+  .header__title span {
+    color: #2A7AE4;
+  }
+
+  .header__search input {
+    width: 20rem;
+    height: 3rem;
+    padding: .8rem;
+  }
+
+  .header__search input::placeholder {
+    font-size: 1.2rem;
+  }
+
+  .header__search--image {
+    margin-left: -3rem;
+  }
+
+  .header__search--image img {
+    width: 1.4rem;
+  }
+
+  .header__button--button {
+    font-size: 1.4rem;
+    font-weight: 400;
+    color: #2A7AE4;
+    padding: 1.2rem 4rem;
+    border: .1rem solid #2A7AE4;
+  }
+
+  .header__button:hover {
+    background: #2A7AE4;
+    color: #fff;
+  }
+
+}
+
+@media screen and (max-width: 480px) {
+
+  .content__header {
+    width: 100%;
+    padding: 0 1rem;
+  }
+
+  .header__logo {
+    width: 40%;
+    order: 0;
+  }
+
+  .header__search {
+    width: 20%;
+    justify-content: end;
+    padding: 0 1rem;   
+    order: 2;
+  }
+
+  .header__search--image {
+    margin: 0;
+    background: #fff;
+  }
+
+  .header__button {
+    width: 40%;
+    order: 1;
+  }
+
+  .header__search input {
+    display: none;
+  }
+
+  
 }
