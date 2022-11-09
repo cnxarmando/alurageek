@@ -28,10 +28,6 @@
   font-weight: 600;
 }
 
-.header__title span {
-  color: #2A7AE4;
-}
-
 .header__search {
   display: flex;
   width: 33%;
