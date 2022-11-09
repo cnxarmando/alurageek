@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https: //fonts.googleapis.com/css2? família= Raleway:wght@400;500;700 & display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../assets/css/reset.css" />
+    <link rel="stylesheet" href="../assets/css/header/header.css" />
+    <link rel="stylesheet" href="../assets/css/management/management.css" />
+    <link rel="stylesheet" href="../assets/css/contact/contact.css" />
+    <link rel="stylesheet" href="../assets/css/footer/footer.css" />
+    <title>AluraGeek - Gestão</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="content__header">
+        <div class="header__logo">
+          <img
+            class="header__image"
+            src="../assets/img/header/control.svg"
+            alt="Controle video game"
+          />
+          <h1 class="header__title"><span>Alura</span>Geek</h1>
+        </div>
+        <div class="header__search">
+          <input
+            type="search"
+            name=""
+            id=""
+            placeholder="O que deseja encontrar?"
+          />
+          <button class="header__search--image">
+            <img src="../assets/img/search.svg" alt="" />
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="main">
+      <section class="container__management">
+        <div class="management__content">
+          <h2 class="management__title">Adicionar novo produto</h2>
+          <form class="management__form" action="">
+            <input
+              type="url"
+              name="image"
+              id="image"
+              placeholder="URL da imagem"
+              required
+            />
+
+            <input
+              type="text"
+              name="category"
+              id="category"
+              placeholder="Categoria"
+            />
+
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Nome do produto"
+            />
+
+            <input
+              type="text"
+              name="price"
+              id="price"
+              placeholder="Preço do produto"
+            />
+
+            <textarea
+              name="description"
+              id="description"
+              cols="30"
+              rows="5"
+              placeholder="Descrição do produto"
+            ></textarea>
+
+            <button class="management button">Adicionar produto</button>
+          </form>
+        </div>
+      </section>
+      <section class="contact">
+        <div class="container__contact">
+          <div class="contact__logo">
+            <img
+              class="contact__logo--image"
+              src="../assets/img/header/control.svg"
+              alt=""
+            />
+            <h1 class="contact__logo--title">AluraGeek</h1>
+          </div>
+          <div class="contact__menu">
+            <ul>
+              <li class="menu__item"><a href="#">Quem somos nós</a></li>
+              <li class="menu__item">
+                <a href="#">Política de privacidade</a>
+              </li>
+              <li class="menu__item"><a href="#">Programa fidelidade</a></li>
+              <li class="menu__item"><a href="#">Nossas lojas</a></li>
+              <li class="menu__item"><a href="#">Quero ser franqueado</a></li>
+              <li class="menu__item"><a href="#">Anuncie aqui</a></li>
+            </ul>
+          </div>
+          <div class="contact__form">
+            <h2 class="form__title">Fale conosco</h2>
+            <form action="" method="post">
+              <fieldset></fieldset>
+              <input
+                class="form__input"
+                type="text"
+                name="nome"
+                id="nome"
+                maxlength="30"
+                placeholder="Nome"
+              />
+              <textarea
+                class="form__textarea"
+                name="mensagem"
+                id="mensagem"
+                maxlength="300"
+                placeholder="Mensagem"
+              ></textarea>
+              <button class="form__button" type="submit">
+                Enviar mensagem
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <p class="footer__text">Desenvolvido por Armando Freitas</p>
+        <p class="footer__text">2022</p>
+      </footer>
+    </main>
+  </body>
+</html>
