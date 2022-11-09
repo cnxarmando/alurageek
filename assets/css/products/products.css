@@ -45,8 +45,12 @@
   width: 17.6rem;
   height: 17.4rem;
   margin: 2rem 0;
-  margin-bottom: 4rem;
+  margin: 4rem 0;
   cursor: pointer;
+}
+
+.container__products--item:nth-child(3n) {
+  display: none;
 }
 
 .container__products--image {
@@ -70,10 +74,17 @@
 .container__products--button {
   font-size: 1.4rem;
   font-weight: bold;
-  display: flex;  
+  display: flex;
   background-color: #fff;
   color: #2A7AE4;
   height: 3.2rem;
   margin-top: 1rem;
   cursor: pointer;
+}
+
+
+@media screen and (min-width: 1024px) {
+  .container__products--item:nth-child(3n) {
+    display: block;
+  }
 }
