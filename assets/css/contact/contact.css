@@ -8,17 +8,19 @@
 
 .container__contact {
   display: flex;
-  align-items: flex-start;
-  width: 90%;
+  flex-direction: column;
+  align-items: center;
+  width: 95%;
   margin: 0 auto;
 }
 
 /* ============================ */
 .contact__logo {
-  width: 25%;
+  width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
+  margin-bottom: 2rem;
 }
 
 .contact__logo--image {
@@ -34,9 +36,9 @@
 /* ============================== */
 
 .contact__menu {
-  width: 25%;
+  width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
 }
 
@@ -44,7 +46,7 @@
   font-size: 1.6rem;
   font-weight: 500;
   line-height: 2.4rem;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
 }
 
 .menu__item a {
@@ -55,7 +57,7 @@
 /* ============================== */
 
 .contact__form {
-  width: 50%;
+  width: 100%;
   display: flex;
   flex-direction: column;
 }
@@ -113,3 +115,76 @@ form {
   cursor: pointer;
 }
 
+
+@media screen and (min-width: 768px) {
+
+  .container__contact {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 2fr;
+    grid-template-areas:
+      "logo form form"
+      "menu form form";
+  }
+
+  .contact__logo {
+    grid-area: logo;
+    justify-content: left;
+    width: 100%;
+    height: 20%;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+
+  .contact__menu {
+    grid-area: menu;
+    justify-content: left;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+  }
+
+  .contact__form {
+    grid-area: form;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container__contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 80%;
+  }
+
+  .contact__logo {
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+
+  /* ============================== */
+
+  .contact__menu {
+    width: 25%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 4rem;
+  }
+
+  /* ============================== */
+
+  .contact__form {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+  }
+
+}
