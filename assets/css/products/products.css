@@ -18,14 +18,20 @@
   font-weight: 700;
 }
 
-.container__button {
+.container__title--button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container__button a {
   font-size: 1.6rem;
   font-weight: bold;
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #fff;
-  color: #2A7AE4;
+  color: #2A7AE4;  
 }
 
 .container__button img {
