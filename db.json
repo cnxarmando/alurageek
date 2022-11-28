@@ -1,0 +1,14 @@
+{
+  "produto": [
+    {
+      "nome": "Alura",
+      "imageUrl": "https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg",
+      "price": "100,00",
+      "id": "1",
+      "alt": "Logo da Alura",
+      "section": "Cursos",
+      "description": "A Alura é uma empresa de educação online que oferece cursos de tecnologia para desenvolvedores e designers. A empresa foi fundada em 2011 por Guilherme Silveira e Paulo Silveira, e tem sede em São Paulo, Brasil.",
+      "quantidade": "10"
+    }
+  ]
+}

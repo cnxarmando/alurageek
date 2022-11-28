@@ -1,0 +1,19 @@
+{
+  "name": "alurageek",
+  "version": "1.0.0",
+  "description": "Projeto desenvolvido no programa ONE - Oracle Next Education. Alura/Oracle",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cnxarmando/alurageek.git"
+  },
+  "author": "Armando Freitas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cnxarmando/alurageek/issues"
+  },
+  "homepage": "https://github.com/cnxarmando/alurageek#readme"
+}
