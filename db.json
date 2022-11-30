@@ -1,14 +1,167 @@
 {
-  "produto": [
+  "products": [
     {
-      "nome": "Alura",
-      "imageUrl": "https://www.alura.com.br/assets/img/alura-logo-white.1570550707.svg",
+      "name": "Darth Vader",
+      "image": "./assets/img/star-wars/darth_vader.png",
       "price": "100,00",
       "id": "1",
-      "alt": "Logo da Alura",
-      "section": "Cursos",
-      "description": "A Alura é uma empresa de educação online que oferece cursos de tecnologia para desenvolvedores e designers. A empresa foi fundada em 2011 por Guilherme Silveira e Paulo Silveira, e tem sede em São Paulo, Brasil.",
-      "quantidade": "10"
+      "category": "star-wars",
+      "description": "Darth Vader é um personagem fictício da franquia Star Wars, criado por George Lucas. Ele aparece nos filmes Star Wars",
+      "quantity": "10"
+    },
+    {
+      "name": "Darth Vader",
+      "image": "./assets/img/star-wars/darth_vader_header.png",
+      "price": "50,00",
+      "id": "2",
+      "category": "star-wars",
+      "description": "Darth Vader é um personagem fictício da franquia Star Wars, criado por George Lucas. Ele aparece nos filmes Star Wars",
+      "quantity": "10"
+    },
+    {
+      "name": "Yoda",
+      "image": "./assets/img/star-wars/yoda.png",
+      "price": "100,00",
+      "id": "3",
+      "category": "star-wars",
+      "description": "Yoda é um personagem fictício da franquia Star Wars, criado por George Lucas. Ele aparece nos filmes Star Wars",
+      "quantity": "10"
+    },
+    {
+      "name": "Stormtrooper",
+      "image": "./assets/img/star-wars/stormtrooper_mug.png",
+      "price": "100,00",
+      "id": "4",
+      "category": "star-wars",
+      "description": "Stormtrooper é um personagem fictício da franquia Star Wars, criado por George Lucas. Ele aparece nos filmes Star Wars",
+      "quantity": "10"
+    },
+    {
+      "name": "Stormtrooper",
+      "image": "./assets/img/star-wars/stormtrooper.png",
+      "price": "50,00",
+      "id": "5",
+      "category": "star-wars",
+      "description": "Stormtrooper é um personagem fictício da franquia Star Wars, criado por George Lucas. Ele aparece nos filmes Star Wars",
+      "quantity": "10"
+    },
+    {
+      "name": "Yoda",
+      "image": "./assets/img/star-wars/yoda_c.png",
+      "price": "50,00",
+      "id": "6",
+      "category": "star-wars",
+      "description": "Yoda é um personagem fictício da franquia Star Wars, criado por George Lucas. Ele aparece nos filmes Star Wars",
+      "quantity": "10"
+    },
+    {
+      "name": "Controle Nintendo Switch",
+      "image": "./assets/img/consoles/control.png",
+      "price": "100,00",
+      "id": "7",
+      "category": "console",
+      "description": "Controle Nintendo Switch",
+      "quantity": "10"
+    },
+    {
+      "name": "Controle Xbox One",
+      "image": "./assets/img/consoles/ctr_xbox.png",
+      "price": "100,00",
+      "id": "8",
+      "category": "console",
+      "description": "Controle Xbox One",
+      "quantity": "10"
+    },
+    {
+      "name": "Mini Boy",
+      "image": "./assets/img/consoles/miniboy.png",
+      "price": "100,00",
+      "id": "9",
+      "category": "console",
+      "description": "Miniboy",
+      "quantity": "10"
+    },
+    {
+      "name": "Nintendo",
+      "image": "./assets/img/consoles/nintendo.png",
+      "price": "100,00",
+      "id": "10",
+      "category": "console",
+      "description": "Nintendo",
+      "quantity": "10"
+    },
+    {
+      "name": "Playstation",
+      "image": "./assets/img/consoles/play_station.png",
+      "price": "100,00",
+      "id": "11",
+      "category": "console",
+      "description": "Playstation",
+      "quantity": "10"
+    },
+    {
+      "name": "Xbox",
+      "image": "./assets/img/consoles/xbox.png",
+      "price": "100,00",
+      "id": "12",
+      "category": "console",
+      "description": "Xbox",
+      "quantity": "10"
+    },
+    {
+    "name": "Camisa",
+    "image": "./assets/img/several/marca.png",
+    "price": "100,00",
+    "id": "13",
+    "category": "several",
+    "description": "Camisa",
+    "quantity": "10"
+    },
+    {
+      "name": "Pikachu",
+      "image": "./assets/img/several/picachu.png",
+      "price": "100,00",
+      "id": "14",
+      "category": "several",
+      "description": "Picachu",
+      "quantity": "10"
+    },
+    {
+      "name": "Camisa",
+      "image": "./assets/img/several/play.png",
+      "price": "100,00",
+      "id": "15",
+      "category": "several",
+      "description": "Camisa",
+      "quantity": "10"
+    },
+    {
+      "name": "Rádio",
+      "image": "./assets/img/several/radio.png",
+      "price": "100,00",
+      "id": "16",
+      "category": "several",
+      "description": "Rádio",
+      "quantity": "10"
+    },
+    {
+      "name": "Sonic",
+      "image": "./assets/img/several/sonic.png",
+      "price": "100,00",
+      "id": "17",
+      "category": "several",
+      "description": "Sonic",
+      "quantity": "10"
+    },
+    {
+      "name": "Oculos VR",
+      "image": "./assets/img/several/vr.png",
+      "price": "100,00",
+      "id": "18",
+      "category": "several",
+      "description": "Oculos VR",
+      "quantity": "10"
     }
-  ]
+  ]    
 }
+

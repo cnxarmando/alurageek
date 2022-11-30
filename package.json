@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Projeto desenvolvido no programa ONE - Oracle Next Education. Alura/Oracle",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
