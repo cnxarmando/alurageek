@@ -24,7 +24,6 @@ let listaArray = [];
 const starwarsProducts = document.querySelector('[data-starwars]');
 const consoleProducts = document.querySelector('[data-console]');
 const severalProducts = document.querySelector('[data-several]');
-const contentProducts = document.querySelector('[data-products]');
 
 const render = async () => {
   const listProduct = await productServices.listProducts();
@@ -33,9 +32,7 @@ const render = async () => {
 
     listaArray.push(list);
 
-    validaCaminho(element);
-
-    // validaCategoriaRender(element);
+    validaCategoriaRender(element);
   });
   console.log(listaArray.filter(element => element[3] === 'star-wars'));
   console.log(listaArray.filter(element => element[3] === 'console'));
@@ -43,10 +40,6 @@ const render = async () => {
 };
 
 render();
-
-const elementos = element => {
-
-};
 
 const validaCategoriaRender = element => {
   const href = window.location.pathname;
@@ -63,24 +56,7 @@ const validaCategoriaRender = element => {
   } else if (element.category === 'several') {
     severalProducts.appendChild(
       newProducts(element.name, element.price, element.image, element.category),
-      console.log(element.category === 'several'),
+      console.log(element.category === 'several' && element.category === 'several'),
     );
-  } else if (href === '/content/store.html') {
-    contentProducts.appendChild(
-      newProducts(element.name, element.price, element.image, element.category),
-    );
-  }
+  } 
 };
-
-function validaCaminho(element) {
-  const href = window.location.pathname;
-  if (href === '/index.html') {
-    validaCategoriaRender(element);
-  } else if (href === '/content/store.html') {
-    validaCategoriaRender(element);
-  }
-}
-
-// const url = new URL(href);
-
-
