@@ -6,3 +6,13 @@ npm install -g json-server
 
 rodar o json-server com o comando:
 json-server --watch db.json
+
+
++---------------------+
+**OBSERVAÇÕES**
+# Melhorias a serem realizadas
+* Melhorar a responsividade
+* cadastramento de novos rodutos
+* exclusão de produtos
+* login
+* recuperação de dados
