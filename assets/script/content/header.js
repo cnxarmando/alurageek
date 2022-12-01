@@ -7,7 +7,7 @@ header.onload = () => {
     <div class="header__logo">
       <img
         class="header__image"
-        src="./assets/img/header/control.svg"
+        src="../assets/img/header/control.svg"
         alt="Controle video game"
       />
       <h1 class="header__title"><span class="title--blue">Alura</span>Geek</h1>
@@ -20,7 +20,7 @@ header.onload = () => {
         placeholder="O que deseja encontrar?"
       />
       <button class="header__search--image">
-        <img src="./assets/img/search.svg" alt="" />
+        <img src="../assets/img/search.svg" alt="" />
       </button>
     </div>
     <div class="header__button">

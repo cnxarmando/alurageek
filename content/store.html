@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
+    <!-- <link
       href="https: //fonts.googleapis.com/css2? família= Raleway:wght@400;500;700 & display=swap"
       rel="stylesheet"
-    />
+    /> -->
     <link rel="stylesheet" href="../assets/css/reset.css" />
     <link rel="stylesheet" href="../assets/css/header/header.css" />
     <link rel="stylesheet" href="../assets/css/store/store.css" />
@@ -18,285 +18,31 @@
     <title>AluraGeek - Loja</title>
   </head>
   <body>
-    <header class="header">
-      <div class="content__header">
-        <div class="header__logo">
-          <img
-            class="header__image"
-            src="../assets/img/header/control.svg"
-            alt="Controle video game"
-          />
-          <h1 class="header__title"><span>Alura</span>Geek</h1>
-        </div>
-        <div class="header__search">
-          <input
-            type="search"
-            name=""
-            id=""
-            placeholder="O que deseja encontrar?"
-          />
-          <button class="header__search--image">
-            <img src="../assets/img/search.svg" alt="" />
-          </button>
-        </div>         
-      </div>
-    </header> 
-    
-    <main class="main">      
-      <section class="container star-wars">
+    <header class="header" data-header>
+      
+    </header>
+
+    <main class="main">
+      <section class="container">
         <div class="container__title">
           <h2 class="container__title--title">Todos os produtos</h2>
           <button class="container__button">
-            <a href="./management.html">Adicionar produto</a>            
+            <a href="./management.html">Adicionar produto</a>
           </button>
         </div>
+        <div class="container__products" data-products>
 
-        <div class="container__products">
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/star-wars/unsplash_6FDXGY9J6y4.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/star-wars/unsplash_epRFE_hBNjo.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/star-wars/unsplash_KeGToDVN0l4.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/star-wars/unsplash_4OHkK555s1A.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/star-wars/unsplash_R8L1l9RN198.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/star-wars/unsplash_1VV1MRafd7A.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-        </div>
-      </section>
-      
-      <section class="container console">
-        <div class="container__products">
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/consoles/unsplash_0POwK6iAiRQ.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/consoles/unsplash_caNzzoxls8Q.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/consoles/unsplash_ZV7lnfyQLmA.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/consoles/unsplash_wa5z9o9fgjw.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/consoles/unsplash_Zjn4dT993-g.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/consoles/unsplash_k-xYhI3-gJM.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-        </div>
-      </section>
-      
-      <section class="container several">
-        <div class="container__products">
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/several/unsplash_fMP-oCze3AY.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/several/unsplash_bUgaIaZysH0.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/several/unsplash_sYVY_ZKwaxU.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/several/unsplash_jMT6BrgBuXU.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/several/unsplash_MxVkWPiJALs.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-          <div class="container__products--item">
-            <img
-              class="container__products--image"
-              src="../assets/img/several/unsplash_r27umXAelDc.png"
-              alt=""
-            />
-            <h3 class="container__products--title">Nome do produto</h3>
-            
-            <p class="container__products--price">R$ 999,99</p>
-            <button class="container__products--button">Ver produto</button>
-          </div>
-        </div>
+        
       </section>
 
-      <section class="contact">
-        <div class="container__contact">
-
-          <div class="contact__logo">
-            <img class="contact__logo--image" src="../assets/img/header/control.svg" alt="" />
-            <h1 class="contact__logo--title">AluraGeek</h1>
-          </div>
-          <div class="contact__menu">
-            <ul>
-              <li class="menu__item"><a href="#">Quem somos nós</a></li>
-              <li class="menu__item"><a href="#">Política de privacidade</a></li>
-              <li class="menu__item"><a href="#">Programa fidelidade</a></li>
-              <li class="menu__item"><a href="#">Nossas lojas</a></li>
-              <li class="menu__item"><a href="#">Quero ser franqueado</a></li>
-              <li class="menu__item"><a href="#">Anuncie aqui</a></li>
-            </ul>
-          </div>
-          <div class="contact__form">
-            <h2 class="form__title">Fale conosco</h2>
-            <form action="" method="post">
-              <fieldset></fieldset>
-              <input class="form__input" type="text" name="nome" id="nome"
-              maxlength="30" placeholder="Nome"/>
-              <textarea class="form__textarea" name="mensagem" id="mensagem"
-              maxlength="300" placeholder="Mensagem"></textarea>
-              <button class="form__button" type="submit">Enviar mensagem</button>
-            </form>
-          </div>
-        </div>
-      </section>
+      <section class="contact" data-contact></section>
       <footer class="footer">
         <p class="footer__text">Desenvolvido por Armando Freitas</p>
         <p class="footer__text">2022</p>
       </footer>
     </main>
+    <script type="module" src="../assets/script/content/header.js"></script>
+    <script type="module" src="../assets/script/content/contact.js"></script>
+    <script type="module" src="../assets/script/controllers/produtcts-controller.js"></script>
   </body>
 </html>

@@ -5,7 +5,7 @@ contact.onload = () => {
   contentContact.classList.add('container__contact');
   const content = `
     <div class="contact__logo">
-      <img class="contact__logo--image" src="./assets/img/header/control.svg" alt="" />
+      <img class="contact__logo--image" src="../assets/img/header/control.svg" alt="" />
       <h1 class="contact__logo--title"><span class="title--blue">Alura</span>Geek</h1>
     </div>
     <div class="contact__menu">
